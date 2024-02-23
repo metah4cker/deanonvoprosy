@@ -27,6 +27,14 @@
 
 ## Як це працює?
 
+Скриншоти роботи скрипту:
+
+<img src="https://github.com/metah4cker/deanonvoprosy/blob/main/screenshots/Screenshot_1.png?raw=true" width="600">
+
+<img src="https://github.com/metah4cker/deanonvoprosy/blob/main/screenshots/Screenshot_2.png?raw=true" width="600">
+
+<img src="https://github.com/metah4cker/deanonvoprosy/blob/main/screenshots/Screenshot_3.png?raw=true" width="600">
+
 ❔ Бот передає 🆔ID користувача, який є у кожного
 користувача телеграмму, всередені прихованих даних кнопки
 "📩 Ответить". Це дозволяє дізнатися 👤 інформацію о
