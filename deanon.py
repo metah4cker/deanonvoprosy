@@ -67,7 +67,7 @@ async def try_get_user(uid: str) -> tuple[str, str, str]:
 
 
 # deanon @anonimnye_voprosy_bot
-async def deanon_1(app: pyrogram.Client, bot_nickname: str = 'anonimnye_voprosy_bot'):
+async def deanon_1(app: pyrogram.Client, bot_nickname: str = 'ananimnye_voprosy_bot'):
   # main script code
   try:
     m: pyrogram.types.Message | None = None  # for the type-hints :)
@@ -80,7 +80,7 @@ async def deanon_1(app: pyrogram.Client, bot_nickname: str = 'anonimnye_voprosy_
         continue
 
       msg_text = ' '.join(m.text.split('\n\n')[1:])                           # get message text
-      uid = m.reply_markup.inline_keyboard[0][0].callback_data.split(':')[2]  # get user id, that wrote this message
+      uid = m.reply_markup.inline_keyboard[0][0].callback_data.split(':')[1]  # get user id, that wrote this message
 
       # check if the message from is bot or bot admin
       if uid == 'bot':
